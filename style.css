@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Panorama Container */
+#pano {
+    height: 90%;
+}
+
+/* Buttons for Controls */
+#controls {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #f4f4f4;
+}
+
+button:hover {
+    background: #ddd;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Islamic Holy Places - Interactive 360° Tour</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Panorama Display -->
+    <div id="pano"></div>
+
+    <!-- Buttons for Navigation -->
+    <div id="controls">
+        <button onclick="changeLocation('mecca')">Mecca - Kaaba</button>
+        <button onclick="changeLocation('medina')">Medina - Masjid Al-Nabawi</button>
+        <button onclick="changeLocation('alAqsa')">Jerusalem - Al-Aqsa Mosque</button>
+        <button onclick="changeLocation('karbala')">Karbala - Imam Husayn Shrine</button>
+        <button onclick="changeLocation('najaf')">Najaf - Imam Ali Shrine</button>
+        <button onclick="changeLocation('damascus')">Damascus - Umayyad Mosque</button>
+        <button onclick="changeLocation('istanbul')">Istanbul - Hagia Sophia</button>
+    </div>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGQkPEemXtB3ZFZOgrkpdJj29Fay5eW-g"></script>
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
